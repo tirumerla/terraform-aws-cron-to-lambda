@@ -4,4 +4,6 @@
 .terraform/
 *.terraform/
 myplan
-
+*.zip
+.DS_store
+.vscode/

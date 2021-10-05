@@ -4,7 +4,11 @@ A Terraform module to provision a time-based event rule to trigger a lambda func
 
 ## Features
 
+- [x] Cron trigger based on AWS CloudWatch Events
+
 ## Examples
+
+Go to `./examples`
 
 ## Usage
 
