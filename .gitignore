@@ -1,0 +1,7 @@
+*.tfstate
+*.tfstate.*
+*.hcl
+.terraform/
+*.terraform/
+myplan
+
