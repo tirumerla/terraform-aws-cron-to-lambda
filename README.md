@@ -49,6 +49,6 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_aws_cloudwatch_event_rule_arn"></a> [aws\_cloudwatch\_event\_rule\_arn](#output\_aws\_cloudwatch\_event\_rule\_arn) | n/a |
-| <a name="output_aws_cloudwatch_event_rule_name"></a> [aws\_cloudwatch\_event\_rule\_name](#output\_aws\_cloudwatch\_event\_rule\_name) | n/a |
+| <a name="output_aws_cloudwatch_event_rule_arn"></a> [aws\_cloudwatch\_event\_rule\_arn](#output\_aws\_cloudwatch\_event\_rule\_arn) | ARN of the CloudWatch event rule. |
+| <a name="output_aws_cloudwatch_event_rule_name"></a> [aws\_cloudwatch\_event\_rule\_name](#output\_aws\_cloudwatch\_event\_rule\_name) | Name of the CloudWatch event rule. |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
