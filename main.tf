@@ -19,7 +19,7 @@ resource "aws_cloudwatch_event_target" "this" {
 
 # Allow CW to invoke lambda
 resource "aws_lambda_permission" "this" {
-  statement_id  = "AllowExecutionFromCloudWatch"
+  statement_id  = "AllowExecutionFromCloudWatchFor${var.app}"
   action        = "lambda:InvokeFunction"
   function_name = reverse(split(":", var.lambda_function_arn))[0]
   principal     = "events.amazonaws.com"

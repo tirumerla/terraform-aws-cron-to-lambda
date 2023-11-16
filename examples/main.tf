@@ -1,11 +1,3 @@
-provider "aws" {
-  region                  = "eu-central-1"
-  shared_credentials_file = "/Users/olivergoetz/.aws/credentials"
-  profile                 = "terraform"
-}
-
-data "aws_caller_identity" "this" {}
-
 resource "aws_lambda_function" "this" {
   filename      = "${path.module}/sample.zip"
   function_name = "my-lambda-${data.aws_caller_identity.this.account_id}"
